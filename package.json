@@ -1,0 +1,23 @@
+{
+  "name": "typescript_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldbay/typescript_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldbay/typescript_study/issues"
+  },
+  "homepage": "https://github.com/coldbay/typescript_study#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

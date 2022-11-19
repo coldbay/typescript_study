@@ -6,4 +6,8 @@ const push = (config) => {
     else
         console.log(config.path);
 };
-// 많은 구조
+const addr = (a, b, c) => {
+    if (c)
+        return a + b + c;
+    return a + b;
+};

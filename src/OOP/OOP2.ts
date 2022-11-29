@@ -3,7 +3,7 @@ class Words {
 }
 
 class Dict {
-    private words: Words // 인스턴스가 의무적으로 consttructor로 두고 싶지 않을때
+    private words: Words // 인스턴스가 의무적으로 constructor로 두고 싶지 않을때
     constructor() { // 수동으로 초기화
         this.words = {}
     }

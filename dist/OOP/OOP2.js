@@ -21,6 +21,9 @@ class Dict {
             delete this.words[word.term];
         }
     }
+    static hello() {
+        return "hello";
+    }
 }
 class Word {
     constructor(term, def) {
@@ -34,3 +37,4 @@ dict.add(kimchi);
 dict.def(kimchi);
 dict.update(kimchi, "best");
 dict.rmv(kimchi);
+Dict.hello();

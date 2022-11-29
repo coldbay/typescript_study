@@ -22,6 +22,7 @@ const push: Push = (config) => {
     else console.log(config.path)
 }
 
+
 type Add2 = (a: number, b: number, c?: number) => number
 
 const addr: Add2 = (a, b, c) => {

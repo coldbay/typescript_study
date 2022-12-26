@@ -1,4 +1,4 @@
-type Player = { //Alias 타입
+type Player = { //Alias 타입(타입별칭) -> 타입에 이름을 부여
     readonly name: string // 수정불가  
     age?: number  //선택적 타입
 }

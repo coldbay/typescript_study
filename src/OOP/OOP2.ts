@@ -1,5 +1,5 @@
 class Words {
-    [key: string]: string //property의 이름은 정해지지 않았지만 타입만 알때 -> key를 활용
+    [key: string]: string //property의 이름은 정해지지 않았지만 타입만 알때 -> key를 활용(array[key]에 value가 들어있는 느낌)
 }
 
 class Dict {

@@ -1,9 +1,9 @@
-//call signature- 함수의 인수,리턴값 타입을 담고 있는 타입을 선언
+//call signature(함수에서의 타입 별칭)- 함수의 인수,리턴값 타입을 담고 있는 타입을 선언
 type Add = (a: number, b: number) => number
 
 const add: Add = (a, b) => a + b
 
-//overloading - 여러 call signature 가지는 함수 ,nextJS push - 경로이동 기능
+//overloading - 여러 call signature 가지는 함수 (ex. nextJS push - 경로이동 기능)
 
 type Config = {
     path: string,

@@ -22,5 +22,5 @@ function2.ts- Polymorphism과 이를 부여하는 generic
 
 OOP1.ts- class(private,protected,public) 와 abstract, 상속
 OOP2.ts- 간단한 사전 구현을 통한 static method와 key
-OOP3.ts- interface와 추상클래스
-Total.ts- 
+OOP3.ts- 
+OOPdesign.ts- 

@@ -1,9 +1,9 @@
-type Player = { //Alias 타입(타입별칭) -> 타입에 이름을 부여
+type Player = { //타입 Alias -> 객체에 별칭
     readonly name: string // 수정불가  
     age?: number  //선택적 타입
 }
 
-const playerMaker = (name:string) : Player => ({name}) // : player, 리턴값 타입 지정
+const playerMaker = (name:string) : Player => ({name}) // : Player, 리턴값 타입 지정
 
 const mike = playerMaker("Mike")
 mike.age= 16

@@ -13,7 +13,7 @@ interface PlayerInterface extends UserInterface{ //차이점- type에 비해 OOP
 }
 /*기존 타입 방식
 type PlayerType = UserType && {
-
+    backnumber:number
 }
 */
 
@@ -48,3 +48,4 @@ class PlayerAbstract implements UserAbstract{
     }
 }
 
+const okayu = new PlayerAbstract("okayu", "neko")

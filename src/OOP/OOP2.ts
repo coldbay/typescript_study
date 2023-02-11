@@ -25,6 +25,12 @@ class Dict {
             delete this.words[word.term]
         }
     }
+    public showAll(){
+        console.log(Object.keys(this.words))
+    }
+    public count(){
+        return Object.keys(this.words).length
+    }
     static hello(){ //인스턴스 생성 없이 클래스 이름으로 바로 호출하는 메서드
         return "hello"
     }
